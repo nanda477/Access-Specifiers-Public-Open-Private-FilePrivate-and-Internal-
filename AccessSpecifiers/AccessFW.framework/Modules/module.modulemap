@@ -1,0 +1,11 @@
+framework module AccessFW {
+  umbrella header "AccessFW.h"
+
+  export *
+  module * { export * }
+}
+
+module AccessFW.Swift {
+    header "AccessFW-Swift.h"
+    requires objc
+}
